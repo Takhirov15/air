@@ -1,0 +1,354 @@
+/*--------------------------------------------------------------
+# Google fonts
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Colores
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Font-airpods
+--------------------------------------------------------------*/
+nav {
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Header-start
+--------------------------------------------------------------*/
+ul {
+  padding-top: 16px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10%;
+}
+
+nav .logo {
+  color: #1d1d1f;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav .nav-item {
+  font-size: 16px;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+nav .nav-item:hover {
+  color: #0071e3;
+}
+
+nav .nav-btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background: #0071e3;
+}
+
+/*--------------------------------------------------------------
+# AirPods-start
+--------------------------------------------------------------*/
+.air {
+  padding-top: 200px;
+  /* Animation airpod img top */
+}
+
+.air .air-item-img {
+  width: 114px;
+  height: 248px;
+}
+
+.air .air-text h1 {
+  letter-spacing: 5px;
+  font-size: 130px;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.air .air-text p {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+}
+
+.air .airpod1 {
+  -webkit-animation: airpod1 3s infinite;
+          animation: airpod1 3s infinite;
+}
+
+@-webkit-keyframes airpod1 {
+  50% {
+    -webkit-transform: translatey(-6%);
+            transform: translatey(-6%);
+  }
+}
+
+@keyframes airpod1 {
+  50% {
+    -webkit-transform: translatey(-6%);
+            transform: translatey(-6%);
+  }
+}
+
+.air .airpod2 {
+  -webkit-animation: airpod2 3s infinite;
+          animation: airpod2 3s infinite;
+}
+
+@-webkit-keyframes airpod2 {
+  50% {
+    -webkit-transform: translatey(6%);
+            transform: translatey(6%);
+  }
+}
+
+@keyframes airpod2 {
+  50% {
+    -webkit-transform: translatey(6%);
+            transform: translatey(6%);
+  }
+}
+
+/*--------------------------------------------------------------
+# Sroll-start
+--------------------------------------------------------------*/
+.scroll {
+  padding-top: 150px;
+}
+
+.scroll h5 {
+  font-size: 16px;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.scroll .scr-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Air-backside-start
+--------------------------------------------------------------*/
+.air-backside {
+  padding-top: 200px;
+  /* Animation airpod img button */
+}
+
+.air-backside .air-backside-img {
+  width: 300px;
+}
+
+.air-backside .air-backside-text {
+  text-align: center;
+}
+
+.air-backside h4 {
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.938rem;
+  margin: 0;
+}
+
+.air-backside .air-num {
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.air-backside .air-text {
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+
+.air-backside .air-backside-item {
+  max-width: 180px;
+  width: 100%;
+  margin: 0 auto;
+  color: #1d1d1f;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin-top: -28px;
+}
+
+.air-backside .air-item {
+  margin-top: 30px;
+}
+
+.air-backside .air-backside-img {
+  -webkit-animation: air-backside-img 3s infinite;
+          animation: air-backside-img 3s infinite;
+}
+
+@-webkit-keyframes air-backside-img {
+  50% {
+    -webkit-transform: translatey(-6%);
+            transform: translatey(-6%);
+  }
+}
+
+@keyframes air-backside-img {
+  50% {
+    -webkit-transform: translatey(-6%);
+            transform: translatey(-6%);
+  }
+}
+
+/*--------------------------------------------------------------
+# @Media(max-width)
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+  .airpod-item {
+    margin-left: 250px;
+  }
+  .air .air-text h1 {
+    font-size: 115px;
+  }
+}
+
+@media (max-width: 767px) {
+  .airpod-item {
+    margin-left: 0px;
+    margin: 40px auto;
+  }
+  .air-backside-img {
+    padding-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .air .air-text h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+  .air .air-text p {
+    max-width: 410px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .airpod-item {
+    margin: 70px auto;
+  }
+  .scroll {
+    padding-top: 10px;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav .nav-btn {
+    padding: 8px 13px;
+    font-size: 15px;
+  }
+  nav li {
+    margin: 0 5px;
+  }
+  nav .nav-item {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .air .air-text h1 {
+    font-size: 71px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .air .air-text p {
+    max-width: 300px;
+  }
+  .air .air-item-img {
+    width: 25%;
+    height: auto;
+  }
+  .air-backside .air-num {
+    font-size: 3.5rem;
+  }
+  .air-backside .air-backside-item {
+    font-size: 0.95rem;
+  }
+  .air-backside .air-backside-img {
+    width: 245px;
+  }
+  .air-backside {
+    padding-top: 150px;
+  }
+  nav {
+    padding: 20px 0%;
+  }
+  nav .nav-btn {
+    padding: 8px 13px;
+    font-size: 15px;
+  }
+  nav li {
+    margin: 0 5px;
+  }
+  nav .nav-item {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
