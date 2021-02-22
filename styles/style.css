@@ -248,6 +248,28 @@ nav .nav-btn {
   }
 }
 
+.animate__animated.animate__fadeInUp.airpods-1 {
+  --animate-duration: 1.5s;
+}
+.animate__animated.animate__fadeInUp.aipods-2 {
+  --animate-duration: 2.5s;
+}
+.airpods-3 {
+  animation-duration: 4s;
+}
+.logo{
+  animation-duration: 4.1s;
+}
+.ul{
+  animation-duration: 4.1s;
+}
+.scr-svg{
+  animation-duration: 4.2s;
+}
+.scr-b{
+  animation-duration: 4.5s;
+}
+
 /*--------------------------------------------------------------
 # @Media(max-width)
 --------------------------------------------------------------*/
