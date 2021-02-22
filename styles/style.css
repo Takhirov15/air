@@ -362,5 +362,8 @@ nav .nav-btn {
   nav {
     padding: 20px 0%;
   }
+  .scroll .scr-svg {
+    width: 8%;
+}
 }
 
